@@ -1,0 +1,21 @@
+# vim swap file
+*.swp
+
+# .gitignore
+.gitignore
+
+# Compiled Object files
+*.o
+*.obj
+
+# Unittest
+*.gcno
+
+# MAC file
+*.DS_Store
+
+# python
+*.pyc
+
+# EOF
+

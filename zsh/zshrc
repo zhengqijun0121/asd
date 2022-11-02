@@ -1,0 +1,31 @@
+#!/usr/bin/env zsh
+
+# Copyright (C) 2021. All rights reserved.
+# File name   : zshrc
+# Version     : v1.0
+# Author      : codeMonkey
+# Date        : 2021-12-31
+# Description : zshrc
+
+
+# Judge ssh client connection
+if [[ -n "$SSH_CLIENT" ]]; then
+    export HISTFILE=/dev/null
+    return
+fi
+
+# Set oh_my_zsh HOME
+# OMZ_HOME=/home/zhengqijun/.oh-my-dotfiles/zsh
+if [[ ! $OMZ_HOME ]]; then
+    OMZ_HOME=~/.oh-my-dotfiles/zsh
+fi
+
+if [[ -f $OMZ_HOME/oh_my_zsh.zsh ]]; then
+    source $OMZ_HOME/oh_my_zsh.zsh
+else
+    echo -e "Please install \033[1;31moh_my_zsh\033[0m\n"
+    echo -e "\033[1;32mhttps://github.com/zhengqijun0121/dotfiles\033[0m\n"
+fi
+
+# EOF
+

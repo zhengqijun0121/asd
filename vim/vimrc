@@ -1,0 +1,15 @@
+" Copyright (C) 2018. All rights reserved.
+" File name   : .vimrc
+" Version     : v1.0
+" Author      : codeMonkey
+" Date        : 2019-08-21
+" Description : vim-plug
+
+
+" Note: Skip initialization for vim-tiny or vim-small.
+if 1
+    exec 'source' fnamemodify(expand('<sfile>'), ':h').'/.oh-my-dotfiles/vim/config/oh_my_vim.vim'
+endif
+
+" EOF
+

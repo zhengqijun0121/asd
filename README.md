@@ -1,1 +1,2 @@
-# asd
+# dotfiles
+Linux config file

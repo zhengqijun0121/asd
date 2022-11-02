@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    [
+      -I,
+      .,
+      -O2,
+      -Wall,
+      -g,
+    ]

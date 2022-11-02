@@ -1,0 +1,21 @@
+[user]
+	name = codeMonkey
+	email = zhengqijun0121@qq.com
+
+[color]
+	ui = true
+
+[ssh]
+	variant = ssh
+
+[core]
+	editor = vim
+
+[commit]
+	template = ~/.gitmessage
+
+[merge]
+	tool = vimdiff
+
+[diff]
+	tool = vimdiff
